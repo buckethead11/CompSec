@@ -1,0 +1,22 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSRF Demo</title>
+</head>
+<body>
+    <h1>SSRF Demo</h1>
+    <form action="http://127.0.0.1:5000/fetch-data" method="post">
+        <label for="url">Enter URL:</label>
+        <input type="text" id="url" name="url" placeholder="http://example.com">
+        <button type="submit">Fetch Data</button>
+    </form>
+    
+    <div id="response">
+        <h2>Response:</h2>
+        <!-- Response from server will be displayed here -->
+    </div>
+</body>
+</html>
