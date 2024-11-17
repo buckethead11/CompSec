@@ -1,0 +1,135 @@
+2024-11-17 18:43:08,491 - INFO - SSRF Attempt Details:
+{
+  "timestamp": "2024-11-17T18:43:08.491892",
+  "url": "http://127.0.0.1:5000/internal/data",
+  "client_ip": "127.0.0.1",
+  "headers": {
+    "Host": "127.0.0.1:5000",
+    "Connection": "keep-alive",
+    "Content-Length": "51",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Sec-Ch-Ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Accept": "*/*",
+    "Origin": "http://127.0.0.1:5000",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Dest": "empty",
+    "Referer": "http://127.0.0.1:5000/",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,ta;q=0.8"
+  },
+  "method": "POST",
+  "path": "/fetch-data",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+}
+2024-11-17 18:43:24,874 - INFO - SSRF Attempt Details:
+{
+  "timestamp": "2024-11-17T18:43:24.874706",
+  "url": "http://127.0.0.1:5000/latest/meta-data/iam/security-credentials/admin-role",
+  "client_ip": "127.0.0.1",
+  "headers": {
+    "Host": "127.0.0.1:5000",
+    "Connection": "keep-alive",
+    "Content-Length": "96",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Sec-Ch-Ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Accept": "*/*",
+    "Origin": "http://127.0.0.1:5000",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Dest": "empty",
+    "Referer": "http://127.0.0.1:5000/",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,ta;q=0.8"
+  },
+  "method": "POST",
+  "path": "/fetch-data",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+}
+2024-11-17 18:43:37,653 - INFO - SSRF Attempt Details:
+{
+  "timestamp": "2024-11-17T18:43:37.653949",
+  "url": "http://127.0.0.1:5000/internal/data",
+  "client_ip": "127.0.0.1",
+  "headers": {
+    "Host": "127.0.0.1:5000",
+    "Connection": "keep-alive",
+    "Content-Length": "51",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Sec-Ch-Ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Accept": "*/*",
+    "Origin": "http://127.0.0.1:5000",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Dest": "empty",
+    "Referer": "http://127.0.0.1:5000/",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,ta;q=0.8"
+  },
+  "method": "POST",
+  "path": "/fetch-data",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+}
+2024-11-17 18:51:09,495 - INFO - SSRF Attempt Details:
+{
+  "timestamp": "2024-11-17T18:51:09.495014",
+  "url": "http://127.0.0.1:5000/internal/data",
+  "client_ip": "127.0.0.1",
+  "headers": {
+    "Host": "127.0.0.1:5000",
+    "Connection": "keep-alive",
+    "Content-Length": "51",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Sec-Ch-Ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Accept": "*/*",
+    "Origin": "http://127.0.0.1:5000",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Dest": "empty",
+    "Referer": "http://127.0.0.1:5000/",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,ta;q=0.8"
+  },
+  "method": "POST",
+  "path": "/fetch-data",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+}
+2024-11-17 18:51:26,009 - INFO - SSRF Attempt Details:
+{
+  "timestamp": "2024-11-17T18:51:26.009397",
+  "url": "http://127.0.0.1:5000/latest/meta-data/iam/security-credentials/admin-role",
+  "client_ip": "127.0.0.1",
+  "headers": {
+    "Host": "127.0.0.1:5000",
+    "Connection": "keep-alive",
+    "Content-Length": "96",
+    "Sec-Ch-Ua-Platform": "\"Windows\"",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Sec-Ch-Ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Accept": "*/*",
+    "Origin": "http://127.0.0.1:5000",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Dest": "empty",
+    "Referer": "http://127.0.0.1:5000/",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9,ta;q=0.8"
+  },
+  "method": "POST",
+  "path": "/fetch-data",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+}
